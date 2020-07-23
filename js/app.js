@@ -145,23 +145,29 @@ function validation(){
 
         return false;     
 
-    } 
+    }
+    
+    else{
+
+       alert("you form submitted sucfuly");
+
+    }
 
    
 
     
     
- else   if(checkedYes == false && checkedNo == false){
-    alert('You need to select an gender!');
-    return false;
-    }
+//  else   if(checkedYes == false && checkedNo == false){
+//     alert('You need to select an gender!');
+//     return false;
+//     }
 
 
-    else{
+//     else{
 
 
-        alert("thanks");
-    }
+//         alert("thanks");
+//     }
     
 
     

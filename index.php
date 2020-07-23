@@ -1,3 +1,11 @@
+<?php
+
+include("connection.php");
+error_reporting(0);
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,17 +31,17 @@
         <div class="col-lg-8 m-auto d-block">
         
 
-            <form action="#" name="forms" onsubmit="return validation()" class="bg-light mt-5"  >
+            <form action="insert.php" method="post" name="forms" onsubmit="return validation()" class="bg-light mt-5"  >
 
                 <div class="form-group">
                     <label for="">FISRST NAME</label>
-                    <input type="text" name="user" class="form-control" id="user">
+                    <input type="text" name="fname" class="form-control" id="user">
                    
                 </div>
 
                 <div class="form-group">
                     <label for="">LAST NAME</label>
-                    <input type="text" name="user" class="form-control" id="Lname">
+                    <input type="text" name="lname" class="form-control" id="Lname">
                 </div>
 
 
@@ -85,6 +93,12 @@
         </div>
 
     </div>
+
+
+
+
+
+   
     
 </body>
 <script src="./js/app.js"></script>
